@@ -1,0 +1,108 @@
+body{
+    background-color: #F7F1F0;
+}
+h2{
+    font-size: 2.8rem;
+    font-family: 'Days One', sans-serif;
+    color: #000;
+}
+h2 span{
+    font-size: 4rem;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #cb3234;
+}
+
+.sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+.sociales ul li a i::before{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+}
+.navegacion{
+    background-color: #cb3234;
+}
+.navbar-light .navbar-toggler{
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+}
+.nav-link{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: background-color .3s ease-in-out;
+}
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+
+.nav-link:hover{
+    background-color: #AB0205;
+    color: #edb8b8;
+}
+
+.carousel-inner{
+    margin-top: 2em;
+}
+
+.card{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.carousel-control-next,  .carousel-control-prev{
+    width: 3.5em;
+}
+
+.nuevositio p{
+    font-family: 'Balsamiq Sans', cursive;
+    color: #979797;
+    font-size: 1.5rem;
+}
+
+.products .card{
+    border: none;
+}
+
+.products .card a{
+    color: #AB0205;
+    text-decoration:none;
+}
+.products .card a:hover{
+    color:#D1A79A;
+}
+.products .card p{
+    color: #000;
+    font-size: .8rem;
+}
+.products .card .precio{
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.footer-sitio{
+    background-color: #EDCDC7;
+}
+
+.dropdown-menu,.dropdown-menu.show {
+    background-color: #cb3234;
+}
+.dropdown-item {
+    background-color: #cb3234;
+    color: #fff;
+}
+.dropdown-item:hover {
+    color: #000000;
+    background-color: #F7F1F0;
+}
+
